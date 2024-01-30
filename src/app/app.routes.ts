@@ -12,14 +12,14 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 
 export const routes: Routes = [
 
-    {title: "ADS | Home", path:'' , component: HeaderComponent},
-    {title: "ADS | Home", path:'home' , component: HeaderComponent},
-    {title: "ADS | About", path:'about' , component: AboutComponent},
-    {title: "ADS | Client", path:'clients' , component: ClientsComponent},
-    {title: "ADS | Pricing", path:'pricing' , component: PricingComponent},
-    {title: "ADS | Testimonials", path:'testimonials' , component: TestimonialsComponent},
-    {title: "ADS | Gallery", path:'gallery' , component: GalleryComponent},
-    {title: "ADS | Services", path:'services' , component: ServicesComponent},
-    {title: "ADS | Not Found", path:'**' , component: NotfoundComponent},
+    {title: "NMR | Home", path:'' , component: HeaderComponent},
+    {title: "NMR | Home", path:'home' , component: HeaderComponent},
+    {title: "NMR | About", path:'about' , component: AboutComponent},
+    {title: "NMR | Client", path:'clients' , component: ClientsComponent},
+    {title: "NMR | Pricing", path:'pricing' , component: PricingComponent},
+    {title: "NMR | Testimonials", path:'testimonials' , component: TestimonialsComponent},
+    {title: "NMR | Gallery", path:'gallery' , component: GalleryComponent},
+    {title: "NMR | Services", path:'services' , component: ServicesComponent},
+    {title: "NMR | Not Found", path:'**' , component: NotfoundComponent},
 
 ];
