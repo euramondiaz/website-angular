@@ -13,13 +13,13 @@ import { NotfoundComponent } from './components/notfound/notfound.component';
 export const routes: Routes = [
 
     {title: "NMR | Home", path:'' , component: HeaderComponent},
-    {title: "NMR | Home", path:'home' , component: HeaderComponent},
-    {title: "NMR | About", path:'about' , component: AboutComponent},
-    {title: "NMR | Client", path:'clients' , component: ClientsComponent},
-    {title: "NMR | Pricing", path:'pricing' , component: PricingComponent},
-    {title: "NMR | Testimonials", path:'testimonials' , component: TestimonialsComponent},
-    {title: "NMR | Gallery", path:'gallery' , component: GalleryComponent},
-    {title: "NMR | Services", path:'services' , component: ServicesComponent},
+    {title: "NMR | Inicio", path:'home' , component: HeaderComponent},
+    {title: "NMR | Sobre", path:'about' , component: AboutComponent},
+    {title: "NMR | Clientes", path:'clients' , component: ClientsComponent},
+    {title: "NMR | Planos", path:'pricing' , component: PricingComponent},
+    {title: "NMR | Depoimentos", path:'testimonials' , component: TestimonialsComponent},
+    {title: "NMR | Galeria", path:'gallery' , component: GalleryComponent},
+    {title: "NMR | Serviços", path:'services' , component: ServicesComponent},
     {title: "NMR | Not Found", path:'**' , component: NotfoundComponent},
 
 ];
