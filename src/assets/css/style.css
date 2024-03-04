@@ -793,7 +793,7 @@ h6 {
 }
 
 #banner h1 {
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #banner .section-heading:before {
@@ -1401,8 +1401,7 @@ blockquote {
 .client-overlay {
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top;
-    0;
+    top:0;
     right: 0;
     bottom: 0;
     left: 0;
@@ -2109,6 +2108,10 @@ blockquote {
 ===============================*/
 @media (max-width: 480px) {
 
+
+
+
+
     #wrapper {
         margin:0;
         padding:0;
@@ -2200,56 +2203,60 @@ blockquote {
 
 /* Mobile to Tablet Portrait
 ===============================*/
+/* component.css */
+
+/* Estilos padrão para o componente */
+
 @media (min-width: 480px) and (max-width: 767px) {
+  #wrapper {
+      margin:0;
+      padding:0;
+  }
 
-    #wrapper {
-        margin:0;
-        padding:0;
-    }
+  .page-border, #scrollUp, #scrollUp:before {
+      display:none;
+  }
 
-    .page-border, #scrollUp, #scrollUp:before {
-        display:none;
-    }
+  .row {
+      padding: 0!important;
+  }
 
+  .col-1, .col-2, .col-5, .col-7, .col-9, .col-11, .col-2-3, .col-3-4, .col-61, .col-38, .row {
+      width: 100%;
+  }
 
-    .row {
-        padding: 15px 0 !important;
-    }
+  .col-3, .col-4, .col-6, .col-8, .col-10, .col-12 {
+      width: 50%;
+  }
 
-    .col-1, .col-2, .col-5, .col-7, .col-9, .col-11, .col-2-3, .col-3-4, .col-61, .col-38, .row {
-        width: 100%;
-    }
+  /*-----------------Header Elements-----------------*/
+  #header .row {
+      padding: 0 !important;
+  }
 
-    .col-3, .col-4, .col-6, .col-8, .col-10, .col-12 {
-        width: 50%;
-    }
+  #header aside {
+      display: inline-block;
+      position: absolute;
+      top: 40px;
+      right: 60px;
+      padding-top:3px;
+      padding-right: 5px;
+  }
 
-    /*-----------------Header Elements-----------------*/
-    #header .row {
-        padding: 0 !important;
-    }
+  #header.nav-solid aside {
+      top: 20px;
+  }
 
-    #header aside {
-        display: inline-block;
-        position: absolute;
-        top: 40px;
-        right: 60px;
-        padding-top:3px;
-        padding-right: 5px;
-    }
+  #header aside ul {
+      margin-top: 0 !important;
+      padding-top: 6px;
+  }
 
-    #header.nav-solid aside {
-        top: 20px;
-    }
+  #banner-content.row {
+      padding-top: 85px !important;
+  }
+}
 
-    #header aside ul {
-        margin-top: 0 !important;
-        padding-top: 6px;
-    }
-
-    #banner-content.row {
-        padding-top: 85px !important;
-    }
 
     /*Navigation*/
     nav#nav-mobile ul {
@@ -2267,17 +2274,27 @@ blockquote {
     }
 
     /* Footer */
-    #landing-footer #copyright {
-        float: left;
-        width: 50%;
-    }
 
-    #landing-footer .social-icons {
-        float: right;
-        width: 50%;
-    }
-
+#landing-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: ##FF3131; /* Cor de fundo do rodapé */
+  color: #fff; /* Cor do texto no rodapé */
 }
+
+#landing-footer #copyright {
+  float: left;
+  width: 50%;
+}
+
+#landing-footer .social-icons {
+  float: right;
+  width: 50%;
+}
+
+
+
 
 /* Landscape Tablet to Desktop
 ===============================*/
