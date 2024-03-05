@@ -94,6 +94,10 @@ Para executar o projeto localmente, siga estas etapas:
 
 Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
+## Autor
+
+Este projeto foi desenvolvido por [RAMON DIAS](https://github.com/euramondiaz).
+
 ## Licença
 
 Este projeto está licenciado sob a MIT License.
