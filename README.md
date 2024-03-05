@@ -1,4 +1,4 @@
-# Projeto Angular XYZ
+# Projeto Angular NOMAR
 
 Este é um projeto Angular desenvolvido para criar um website frotn end responsivo e interativo.
 
